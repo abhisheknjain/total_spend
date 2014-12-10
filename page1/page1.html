@@ -1,0 +1,467 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Procure Ege | Procurement Insights</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+<link rel="stylesheet" type="text/css" href="css/pageone.css">
+<script src="js/pageone.js"></script>
+</head>
+
+<body>
+
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#"><img src="images/logo-color.png"></a>
+                 
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                  <ul class="nav navbar-nav navbar-right row">
+                    
+                    <li><a style="color:#006797; font-size:1.2em; " class="glyphicon glyphicon-envelope" href="#settings" ></a></li>
+                    <li><a style="color:#006797; font-size:1.2em;" class="glyphicon glyphicon-cog" href="#mail" ></a></li>
+                    <li><a style="color:#006797; href="#profile" ><img src="images/profile.png" > Simson David</a></li>
+                  </ul>
+                </div><!--/.nav-collapse -->
+              </div>
+        </nav>
+        
+        <div class="container" style="margin-top: 60px;">
+			
+			<div class="row" style="display: inline;">
+                <span class="col-lg-2 col-md-2 col-sm-2 col-xs-12 "><h4><strong>Total Spend</strong></h4></span>
+                <span class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+                    <select class=" form-control" style="border-radius: 8px;">
+                          <option>Region</option>
+                          
+                    </select>
+                </span>
+                <span class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+                    <select class="form-control" style="border-radius: 8px;">
+                          <option>Business Unit</option>
+                          
+                    </select>
+                </span>
+                <span class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+                    <select class="form-control" style="border-radius: 8px;">
+                          <option>Division</option>
+                          
+                    </select>
+                </span>
+                <span class="col-sm-2 col-md-2 col-lg-2">
+                    <select class="form-control" style="border-radius: 8px;">
+                          <option>Category</option>
+                          
+                    </select>
+                </span>
+                
+			</div>
+    </div>
+    
+    <div class="container">
+    	<div class="row" style="display: inline;">
+        	<div class="spending-col-1 col-lg-2 col-md-2 col-sm-2 col-xs-12" id="spending-col-1">
+                <div class="spending-showbox" id="spending-showbox-col-1.1" onclick="showsec('spending-showbox-col-1.1')">
+                    <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+							                                               	
+                          </div>
+                    </div>
+				<h6>
+                <center>
+					Feb FY2012 &nbsp; &nbsp; &nbsp; 120M
+                </center>
+                </h6>
+                </div>  
+             </div>
+             <div class="spending-col-2 col-lg-2 col-md-2 col-sm-2 col-xs-12" id="spending-col-2">
+                <div class="spending-showbox" id="spending-showbox-col-2.1" onclick="showsec('spending-showbox-col-2.1')">
+                    <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 44.17%;">
+                           	
+                          </div>
+                    </div>
+                    <h6>
+                <center>
+					America &nbsp; &nbsp; &nbsp; 53M
+                </center>
+                </h6>
+                </div> 
+                <div class="spending-showbox" id="spending-showbox-col-2.2" onclick="showsec('spending-showbox-col-2.2')">
+                    <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 43.33%;">
+                           	
+                          </div>
+                    </div>
+                        <h6>
+                <center>
+					Asia &nbsp; &nbsp; &nbsp; 52M
+                </center>
+                </h6>
+                </div> 
+                <div class="spending-showbox" id="spending-showbox-col-2.3" onclick="showsec('spending-showbox-col-2.3')">
+                    <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 8.33%;">
+                           	
+                          </div>
+                    </div>
+                        <h6>
+                <center>
+					Africa &nbsp; &nbsp; &nbsp; 10M
+                </center>
+                </h6>
+                </div> 
+                <div class="spending-showbox" id="spending-showbox-col-2.4" onclick="showsec('spending-showbox-col-2.4')">
+                    <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 3.42%;">
+                           	
+                          </div>
+                    </div>
+                        <h6>
+                <center>
+					Europe &nbsp; &nbsp; &nbsp; 4.1M
+                </center>
+                </h6>
+                </div> 
+                <div class="spending-showbox" id="spending-showbox-col-2.5" onclick="showsec('spending-showbox-col-2.5')">
+                    <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 2%;">
+                           	
+                          </div>
+                    </div>
+                        <h6>
+                <center>
+					Oceeania &nbsp; &nbsp; &nbsp; M
+                </center>
+                </h6>
+                </div> 
+                <div class="spending-showbox" id="spending-showbox-col-2.6" onclick="showsec('spending-showbox-col-2.6')">
+                    <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 1%;">
+                           	
+                          </div>
+                    </div>
+                         <h6>
+                <center>
+					Antartica &nbsp; &nbsp; &nbsp; 53M
+                </center>
+                </h6>
+                </div> 
+               
+                 
+             </div>
+             <div class="spending-col-3 col-lg-2 col-md-2 col-sm-2 col-xs-12" id="spending-col-3">
+                <div class="spending-showbox" id="spending-showbox-col-3.1" onclick="showsec('spending-showbox-col-3.1')">
+                    <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+                           	
+                          </div>
+                    </div>
+                        <h6>
+                <center>
+					xyz Computer  &nbsp; &nbsp; &nbsp; 20M
+                </center>
+                </h6>
+                </div>  
+                <div class="spending-showbox" id="spending-showbox-col-3.2" onclick="showsec('spending-showbox-col-3.2')">
+                    <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                           	
+                          </div>
+                    </div>
+                            <h6>
+                <center>
+					xyz Finance  &nbsp; &nbsp; &nbsp; 16M
+                </center>
+                </h6>
+                </div> 
+                <div class="spending-showbox" id="spending-showbox-col-3.3" onclick="showsec('spending-showbox-col-3.3')">
+                    <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
+                           	
+                          </div>
+                    </div>
+                            <h6>
+                <center>
+					xyz Legal &nbsp; &nbsp; &nbsp;3.9M
+                </center>
+                </h6>
+                </div> 
+                <div class="spending-showbox" id="spending-showbox-col-3.4" onclick="showsec('spending-showbox-col-3.4')">
+                    <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 10%;">
+                           	
+                          </div>
+                    </div>
+                            <h6>
+                <center>
+					xyz Product  &nbsp; &nbsp; &nbsp; 2.8M
+                </center>
+                </h6>
+                </div> 
+                <div class="spending-showbox" id="spending-showbox-col-3.5" onclick="showsec('spending-showbox-col-3.5')">
+                    <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 8%;">
+                           	
+                          </div>
+                    </div>
+                            <h6>
+                <center>
+					xyz Engineer &nbsp; &nbsp; &nbsp; 2.4M
+                </center>
+                </h6>
+                </div> 
+                <div class="spending-showbox" id="spending-showbox-col-3.6" onclick="showsec('spending-showbox-col-3.6')">
+                    <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 7%;">
+                           	
+                          </div>
+                    </div>
+                            <h6>
+                <center>
+					xyz Services  &nbsp; &nbsp; &nbsp; 2.0M
+                </center>
+                </h6>
+                </div> 
+                <div class="spending-showbox" id="spending-showbox-col-3.7" onclick="showsec('spending-showbox-col-3.7')">
+                    <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 6%;">
+                           	
+                          </div>
+                    </div>
+                            <h6>
+                <center>
+					xyz Automotive  &nbsp; &nbsp; &nbsp; 1.8M
+                </center>
+                </h6>
+                </div> 
+                <div class="spending-showbox" id="spending-showbox-col-3.8" onclick="showsec('spending-showbox-col-3.8')">
+                    <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 4%;">
+                           	
+                          </div>
+                    </div>
+                            <h6>
+                <center>
+					xyz Logistic &nbsp; &nbsp; &nbsp; 377K
+                </center>
+                </h6>
+                </div> 
+             </div>
+             <div class="spending-col-4 col-lg-2 col-md-2 col-sm-2 col-xs-12" id="spending-col-4">
+                <div class="spending-showbox" id="spending-showbox-col-4.1" onclick="showsec('spending-showbox-col-4.1')">
+                    <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+                           	
+                          </div>
+                    </div>
+                            <h6>
+                <center>
+					Division 4026  &nbsp; &nbsp; &nbsp;16M
+                </center>
+                </h6>
+                </div>  
+                <div class="spending-showbox" id="spending-showbox-col-4.2" onclick="showsec('spending-showbox-col-4.2')">
+                    <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">
+                           	
+                          </div>
+                    </div>
+                            <h6>
+                <center>
+					Division 4353  &nbsp; &nbsp; &nbsp; 3.2M
+                </center>
+                </h6>
+                </div>
+                <div class="spending-showbox" id="spending-showbox-col-4.3" onclick="showsec('spending-showbox-col-4.3')">
+                    <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
+                           	
+                          </div>
+                    </div>
+                            <h6>
+                <center>
+					Division 3424 &nbsp; &nbsp; &nbsp; 3.2M
+                </center>
+                </h6>
+                </div>
+                <div class="spending-showbox" id="spending-showbox-col-4.4" onclick="showsec('spending-showbox-col-4.4')">
+                    <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 10%;">
+                           	
+                          </div>
+                    </div>
+                    <center>
+					Division 3979  &nbsp; &nbsp; &nbsp; 2.8K
+                </center>
+                </h6>
+                </div>
+                <div class="spending-showbox" id="spending-showbox-col-4.5" onclick="showsec('spending-showbox-col-4.5')">
+                    <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:8%;">
+                           	
+                          </div>
+                    </div>
+                            <h6>
+                <center>
+					Division  &nbsp; &nbsp; &nbsp; 3980K
+                </center>
+                </h6>
+                </div>
+                <div class="spending-showbox" id="spending-showbox-col-4.6" onclick="showsec('spending-showbox-col-4.6')">
+                    <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 8%;">
+                           	
+                          </div>
+                    </div>
+                            <h6>
+                <center>
+					Division 3090  &nbsp; &nbsp; &nbsp; 2.3K
+                </center>
+                </h6>
+                </div>
+                <div class="spending-showbox" id="spending-showbox-col-4.7" onclick="showsec('spending-showbox-col-4.7')">
+                    <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 7%;">
+                           	
+                          </div>
+                    </div>
+                            <h6>
+                <center>
+					Division 4029  &nbsp; &nbsp; &nbsp; 53M
+                </center>
+                </h6>
+                </div>
+                <div class="spending-showbox" id="spending-showbox-col-4.8" onclick="showsec('spending-showbox-col-4.8')">
+                    <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 7%;">
+                           	
+                          </div>
+                    </div>
+                            <h6>
+                <center>
+					Division 3867  &nbsp; &nbsp; &nbsp; 337K
+                </center>
+                </h6>
+                </div>
+                <div class="spending-showbox" id="spending-showbox-col-4.9" onclick="showsec('spending-showbox-col-4.9')">
+                    <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 6%;">
+                           	
+                          </div>
+                    </div>
+                            <h6>
+                <center>
+					Division 4547  &nbsp; &nbsp; &nbsp; 206K
+                </center>
+                </h6>
+                </div>
+                <div class="spending-showbox" id="spending-showbox-col-4.10" onclick="showsec('spending-showbox-col-4.10')">
+                    <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 6%;">
+                           	
+                          </div>
+                    </div>
+                            <h6>
+                <center>
+					Division 4033  &nbsp; &nbsp; &nbsp; 119K
+                </center>
+                </h6>
+                </div>
+                <div class="spending-showbox" id="spending-showbox-col-4.11" onclick="showsec('spending-showbox-col-4.11')">
+                    <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 5%;">
+                           	
+                          </div>
+                                  <h6>
+                
+                    </div>
+                    <center>
+					Division 3338  &nbsp; &nbsp; &nbsp; 52K
+                </center>
+                </h6>
+                </div>
+                <div class="spending-showbox" id="spending-showbox-col-4.12" onclick="showsec('spending-showbox-col-4.12')">
+                    <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 5%;">
+                           	
+                          </div>
+                    </div>
+                            <h6>
+                <center>
+					Division 3339  &nbsp; &nbsp; &nbsp; 52K
+                </center>
+                </h6>
+                </div>
+                </div>
+             <div class="spending-col-5 col-lg-2 col-md-2 col-sm-2 col-xs-12" id="spending-col-5">
+                <div class="spending-showbox" id="spending-showbox-col-5.1"  onclick="showsec('spending-showbox-col-5.1')">
+                    <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+                           	
+                          </div>
+                    </div>
+                            <h6>
+                <center>
+					Information & Inc  &nbsp; &nbsp; &nbsp; 3.3M
+                </center>
+                </h6>
+                </div>
+                <div class="spending-showbox" id="spending-showbox-col-5.2"  onclick="showsec('spending-showbox-col-5.2')">
+                    <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 16%;">
+                           	
+                          </div>
+                    </div>
+                            <h6>
+                <center>
+					Office and Equ  &nbsp; &nbsp; &nbsp; 149K
+                </center>
+                </h6>
+                </div>
+                <div class="spending-showbox" id="spending-showbox-col-5.3"  onclick="showsec('spending-showbox-col-5.3')">
+                    <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 10%;">
+                           	
+                          </div>
+                    </div>
+                            <h6>
+                <center>
+					Building & Com..  &nbsp; &nbsp; &nbsp; 250K
+                </center>
+                </h6>
+                </div> 
+                <div class="spending-showbox" id="spending-showbox-col-5.4"  onclick="showsec('spending-showbox-col-5.4')">
+                    <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 5%;">
+                           	
+                          </div>
+                    </div>
+                            <h6>
+                <center>
+					Fincance &nbsp; &nbsp; &nbsp; 658
+                 </center>
+                </h6>
+                </div>  
+             </div>
+                  
+        </div>
+        <footer class="col-md-12 col-sm-12 col-lg-12" style="height: 25px; background-color: #333333; padding: 5px; margin-top: 20px;">
+			<p style="color:#FFFFFF; font-size:0.75em;"> &copy; Copyright 2014 All rights reserverd to edgeverve systems Ltd </p>
+        </footer>
+    </div>
+ <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>
